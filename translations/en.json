@@ -1,0 +1,14 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a Countdown",
+        "description": "Configure a countdown to a specific date",
+        "data": {
+          "name": "Name",
+          "due_date": "Due Date (YYYY-MM-DD)"
+        }
+      }
+    }
+  }
+}
