@@ -1,4 +1,4 @@
-# Countdown tracker
+# Home Assistant - Countdown tracker
 
 A Home Assistant HACS addon which can track multiple countdowns to important dates.
 
