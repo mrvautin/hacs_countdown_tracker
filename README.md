@@ -1,8 +1,12 @@
 # Countdown tracker
 
-## Install
-
 A Home Assistant HACS addon which can track multiple countdowns to important dates.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mrvautin/hacs_countdown_tracker/refs/heads/main/images/card_screenshot.png" height="200px" />
+</p>
+
+## Install
 
 1. Follow the HACS guide adding a [custom repo](https://hacs.xyz/docs/faq/custom_repositories/).
 2. Add this repo `https://github.com/mrvautin/hacs_countdown_tracker`
@@ -49,7 +53,7 @@ entities:
     icon: mdi:ring
 ```
 
-The `attibute` of `countdown_days` will display `x days` until the due date. You will notice in the sensor you have a few attribute options:
+The `attribute` of `countdown_days` will display `x days` until the due date. You will notice in the sensor you have a few attribute options:
 
 - `countdown_days` will display `x days` until the event
 - `countdown_human` will display in months/weeks/days until the even - Eg: `3 weeks, 6 days`
