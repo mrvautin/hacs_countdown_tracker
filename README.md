@@ -1,4 +1,4 @@
-# Countdown tracker
+# Home Assistant - Countdown tracker
 
 A Home Assistant HACS addon which can track multiple countdowns to important dates.
 
@@ -51,6 +51,11 @@ entities:
     attribute: countdown_days
     name: Wedding Anniverary
     icon: mdi:ring
+  - type: attribute
+    entity: sensor.countdown_christmas
+    attribute: countdown_human
+    name: Christmas!!
+    icon: mdi:gift
 ```
 
 The `attribute` of `countdown_days` will display `x days` until the due date. You will notice in the sensor you have a few attribute options:
