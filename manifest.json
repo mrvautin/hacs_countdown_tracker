@@ -1,0 +1,11 @@
+{
+    "domain": "countdown_tracker",
+    "name": "Countdown Tracker",
+    "version": "1.0.0",
+    "documentation": "https://github.com/mrvautin/hacs_countdown_tracker",
+    "requirements": [],
+    "codeowners": ["@mrvautin"],
+    "config_flow": true,
+    "integration_type": "hub",
+    "iot_class": "local_polling"
+}
